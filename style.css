@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #131313;
+}
+
+.underline1{
+    margin-bottom: 15px;
+    width: 100px;
+    height: 6px;
+    background: rgb(218, 0, 55);
+}
+.underline{
+    margin-bottom: 15px;
+    width: 30px;
+    height: 4px;
+    background: rgb(218, 0, 55);
+}
+hr{
+    width: 1240px;
+    color: rgb(255, 255, 255,.6);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#page{
+    max-width: 1260px;
+    margin: 0%;
+    margin: auto;
+    padding: 0%;
+}
+.navbar{
+    padding: 20px;
+    height: 70px;
+    align-items: center;
+}
+.navbar .logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.navbar .logo span{
+    color: rgb(218, 0, 55);
+    font-size: 40px;
+    font-weight: 700;    
+}
+.navbar .contactMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .contactMe a{
+    color: #ffffff90;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.navbar .contactMe a:hover{
+    color: rgb(218, 0, 55,.5);
+}
+.navbar .contactMe .social a{
+    margin: 0px;
+}
+.navbar .contactMe .social i{
+    font-size: 20px;
+    margin: 5px;
+    color: rgb(218, 0, 55);
+    cursor: pointer;
+}
+.row{
+    max-width: 1260px;
+    margin: 0px;
+    padding: 0%;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.col-md-5 .col-md-3 .col-md-6{
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.row .myImage{
+    padding: 20px;
+    width: 100%;
+}
+.row .myImage img{
+    width: 100%;
+    background-color: rgb(165, 165, 165);
+    max-height: 600px;
+    object-fit: cover;
+}
+.row .myBioContent{
+    padding: 20px;
+    text-align: left;
+}
+.row .myBioContent h1{
+    color: #ddd;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 700px) {
+    .row .myBioContent h1{
+        font-size: 40px;
+    }
+}
+
+.row .myBioContent h6{
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.row .myBioContent p{
+    color: #a9a9a9;
+}
+.row .myBioContent p span{
+    font-style: italic;
+}
+
+.myProjects h1{
+    color: #ddd;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.myProjects .underline1{
+    margin: auto;
+    margin-bottom: 30px;
+}
+.myProjects{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.myProjects .row{
+    margin: 0%;
+    padding: 10px;
+}
+.myProjects .row .col-md-4{
+    margin: 0px;
+    padding: 1px;
+}
+.myProjects .row .col-md-4 .image{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.myProjects .row .col-md-4 .image img{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+
+
+#myInfo{
+    align-items: flex-start;
+}
+.row .col-md-3 .infoFeeds h5{
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 5px;
+    max-width: 250px;
+}
+.row .col-md-3 b{
+    color: #ccc;
+}
+.row .col-md-3 p{
+    color: #a9a9a9;
+    max-width: 250px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.row .col-md-3 p span{
+    font-style: italic;
+}
+
+
+
+.host {
+    margin: 0%;
+    padding: 20px;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.host img{
+    max-width: 330px;
+    max-height: 90px;
+}
+
+
+
+#myContact 
+{
+    align-items: flex-start;
+}
+#myContact .col-md-3{
+    text-align: left;
+    margin: 0%;
+}
+#myContact .col-md-3 h5{
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 5px;
+    max-width: 250px;
+}
+#myContact .col-md-3 p{
+    color: #a9a9a9;
+    max-width: 260px;
+    font-size: 14px;
+}
+#myContact .col-md-3 ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+#myContact .col-md-3 ul li{
+    color: #a9a9a9;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+#myContact .col-md-3 ul li a{
+    color: #a9a9a9;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+#myContact .col-md-3 ul li a:hover{
+    color: rgb(236, 120, 149);
+}
+#myContact .col-md-3 input{
+    width: 100%;
+    height: 42px;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0;
+    background: #ffffff20;
+    margin-bottom: 20px;
+    outline: none;
+}
+#myContact .col-md-3 input::placeholder{
+    color: #aaa;
+    font-size: 13px;
+}
+#myContact .col-md-3 textarea{
+    width: 100%;
+    height: 130px;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0;
+    background: #ffffff20;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#myContact .col-md-3 button{
+    padding: 12px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+    background: rgb(218, 0, 55);
+    border-radius: 5px;
+    border-width: 0;
+    color: #fff;
+    box-shadow: 0px 1px 20px #00000040;
+    outline: none;
+}
