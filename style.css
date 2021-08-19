@@ -158,7 +158,8 @@ hr{
 }
 .myProjects .row .col-md-4 .image img{
     width: 100%;
-    height: 100%;
+    
+    height: auto;
     max-height: 400px;
     object-fit: cover;
     position: relative;
