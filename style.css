@@ -155,10 +155,12 @@ hr{
     width: 100%;
     margin: 0%;
     padding: 0%;
+    height: auto;
+    max-height: 260px;
+    overflow: hidden;
 }
 .myProjects .row .col-md-4 .image img{
     width: 100%;
-    
     height: auto;
     max-height: 400px;
     object-fit: cover;
