@@ -1,78 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap');
-
-
-body{
+body {
     margin: 0%;
     padding: 0%;
     background-color: #131313;
 }
 
-.underline1{
+.underline1 {
     margin-bottom: 15px;
     width: 100px;
     height: 6px;
     background: rgb(218, 0, 55);
 }
-.underline{
+
+.underline {
     margin-bottom: 15px;
     width: 30px;
     height: 4px;
     background: rgb(218, 0, 55);
 }
-hr{
+
+hr {
     max-width: 1240px;
-    color: rgb(255, 255, 255,.6);
+    color: rgb(255, 255, 255, .6);
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-#page{
+
+#page {
     max-width: 1260px;
     margin: 0%;
     margin: auto;
     padding: 0%;
 }
-.navbar{
+
+.navbar {
     padding: 20px;
     height: 70px;
     align-items: center;
 }
-.navbar .logo{
+
+.navbar .logo {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 30px;
     color: white;
 }
-.navbar .logo span{
+
+.navbar .logo span {
     color: rgb(218, 0, 55);
     font-size: 40px;
-    font-weight: 700;    
+    font-weight: 700;
 }
-.navbar .contactMe{
+
+.navbar .contactMe {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar .contactMe a{
+
+.navbar .contactMe a {
     color: #ffffff90;
     text-decoration: none;
     margin-right: 20px;
     cursor: pointer;
     font-weight: 600;
 }
-.navbar .contactMe a:hover{
-    color: rgb(218, 0, 55,.5);
+
+.navbar .contactMe a:hover {
+    color: rgb(218, 0, 55, .5);
 }
-.navbar .contactMe .social a{
+
+.navbar .contactMe .social a {
     margin: 0px;
 }
-.navbar .contactMe .social i{
+
+.navbar .contactMe .social i {
     font-size: 18px;
     margin: 4px;
     color: rgb(218, 0, 55);
     cursor: pointer;
 }
-.row{
+
+.row {
     max-width: 1260px;
     margin: 0px;
     padding: 0%;
@@ -80,53 +90,64 @@ hr{
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.col-md-5 .col-md-3 .col-md-6{
+
+.col-md-5 .col-md-3 .col-md-6 {
     align-items: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.row .myImage{
+
+.row .myImage {
     padding: 20px;
     width: 100%;
 }
-.row .myImage img{
+
+.row .myImage img {
     width: 100%;
     background-color: rgb(165, 165, 165);
     max-height: 600px;
     object-fit: cover;
+    border-radius: 100px;
+    border: 20px solid #000;
+    box-shadow: 0px 20px 40px #000;
 }
-.row .myBioContent{
+
+.row .myBioContent {
     padding: 20px;
     text-align: left;
 }
-.row .myBioContent h1{
+
+.row .myBioContent h1 {
     color: #ddd;
     font-size: 60px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
 }
+
 @media only screen and (max-width: 700px) {
-    .row .myBioContent h1{
+    .row .myBioContent h1 {
         font-size: 40px;
     }
 }
 
-.row .myBioContent h6{
+.row .myBioContent h6 {
     font-weight: 400;
     margin-top: 30px;
     font-size: 18px;
     color: #fff;
     margin-bottom: 30px;
 }
-.row .myBioContent p{
+
+.row .myBioContent p {
     color: #a9a9a9;
 }
-.row .myBioContent p span{
+
+.row .myBioContent p span {
     font-style: italic;
 }
 
-.myProjects h1{
+.myProjects h1 {
     color: #ddd;
     font-size: 40px;
     font-weight: 700;
@@ -134,32 +155,40 @@ hr{
     margin-bottom: 10px;
     text-align: center;
 }
-.myProjects .underline1{
+
+.myProjects .underline1 {
     margin: auto;
     margin-bottom: 30px;
 }
-.myProjects{
+
+.myProjects {
     width: 100%;
     margin: 0%;
     padding: 0%;
 }
-.myProjects .row{
+
+.myProjects .row {
     margin: 0%;
     padding: 10px;
 }
-.myProjects .row .col-md-4{
+
+.myProjects .row .col-md-4 {
     margin: 0px;
-    padding: 1px;
+    padding: 10px;
 }
-.myProjects .row .col-md-4 .image{
+
+.myProjects .row .col-md-4 .image {
     width: 100%;
     margin: 0%;
     padding: 0%;
     height: auto;
     max-height: 260px;
     overflow: hidden;
+    box-shadow: 0px 10px 50px #000;
+    border-radius: 20px;
 }
-.myProjects .row .col-md-4 .image img{
+
+.myProjects .row .col-md-4 .image img {
     width: 100%;
     height: auto;
     max-height: 400px;
@@ -167,13 +196,11 @@ hr{
     position: relative;
 }
 
-
-
-
-#myInfo{
+#myInfo {
     align-items: flex-start;
 }
-.row .col-md-3 .infoFeeds h5{
+
+.row .col-md-3 .infoFeeds h5 {
     font-weight: 500;
     margin-top: 40px;
     font-size: 18px;
@@ -184,20 +211,21 @@ hr{
     letter-spacing: 5px;
     max-width: 250px;
 }
-.row .col-md-3 b{
+
+.row .col-md-3 b {
     color: #ccc;
 }
-.row .col-md-3 p{
+
+.row .col-md-3 p {
     color: #a9a9a9;
     max-width: 250px;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
-.row .col-md-3 p span{
+
+.row .col-md-3 p span {
     font-style: italic;
 }
-
-
 
 .host {
     margin: 0%;
@@ -207,22 +235,22 @@ hr{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.host img{
+
+.host img {
     max-width: 330px;
     max-height: 90px;
 }
 
-
-
-#myContact 
-{
+#myContact {
     align-items: flex-start;
 }
-#myContact .col-md-3{
+
+#myContact .col-md-3 {
     text-align: left;
     margin: 0%;
 }
-#myContact .col-md-3 h5{
+
+#myContact .col-md-3 h5 {
     font-weight: 600;
     margin-top: 40px;
     font-size: 18px;
@@ -233,34 +261,40 @@ hr{
     letter-spacing: 5px;
     max-width: 250px;
 }
-#myContact .col-md-3 p{
+
+#myContact .col-md-3 p {
     color: #a9a9a9;
     max-width: 260px;
     font-size: 14px;
 }
-#myContact .col-md-3 ul{
+
+#myContact .col-md-3 ul {
     margin: 0%;
     padding: 0%;
     list-style: none;
 }
-#myContact .col-md-3 ul li{
+
+#myContact .col-md-3 ul li {
     color: #a9a9a9;
     font-size: 14px;
     cursor: pointer;
     margin-bottom: 7px;
     text-decoration: none;
 }
-#myContact .col-md-3 ul li a{
+
+#myContact .col-md-3 ul li a {
     color: #a9a9a9;
     font-size: 14px;
     cursor: pointer;
     margin-bottom: 7px;
     text-decoration: none;
 }
-#myContact .col-md-3 ul li a:hover{
+
+#myContact .col-md-3 ul li a:hover {
     color: rgb(236, 120, 149);
 }
-#myContact .col-md-3 input{
+
+#myContact .col-md-3 input {
     width: 100%;
     height: 42px;
     padding: 15px;
@@ -270,11 +304,13 @@ hr{
     margin-bottom: 20px;
     outline: none;
 }
-#myContact .col-md-3 input::placeholder{
+
+#myContact .col-md-3 input::placeholder {
     color: #aaa;
     font-size: 13px;
 }
-#myContact .col-md-3 textarea{
+
+#myContact .col-md-3 textarea {
     width: 100%;
     height: 130px;
     padding: 15px;
@@ -285,7 +321,7 @@ hr{
     outline: none;
 }
 
-#myContact .col-md-3 button{
+#myContact .col-md-3 button {
     padding: 12px;
     width: 200px;
     font-size: 14px;
