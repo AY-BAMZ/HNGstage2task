@@ -186,6 +186,7 @@ hr {
     overflow: hidden;
     box-shadow: 0px 10px 50px #000;
     border-radius: 20px;
+    border: 20px solid #1f1f1f;
 }
 
 .myProjects .row .col-md-4 .image img {
