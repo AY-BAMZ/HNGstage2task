@@ -129,6 +129,9 @@ hr {
     .row .myBioContent h1 {
         font-size: 40px;
     }
+    .myProjects h1 {
+        font-size: 30px !important;
+    }
 }
 
 .row .myBioContent h6 {
